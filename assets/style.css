@@ -1,0 +1,54 @@
+body{
+	padding-top: 80px;
+	font-family: Arial;
+	background-color: #6A4949;
+}
+
+.container{
+	background-color: rgb(255,255,255);
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 15px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#logo{
+	font-size: 25px;
+}
+
+a:link, a:visited{
+	color: slateGray;
+	text-decoration: none;
+	border-bottom: 1px dotted slateGray;
+}
+
+a:hover{
+	color: #444;
+	border-bottom-color: #444; 
+}
+
+ol li{
+	line-height: 35px;
+}
+
+small{
+	color:#999;
+	font-style:italic;
+}
+
+p{
+	font-style: italic;
+	line-height: 23px;
+}
+
+input[type=text], input[type=password], textarea{
+	-webkit-apperance: none;
+	padding: 5px;
+	border:1px solid #ccc;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	outline: none;
+}
